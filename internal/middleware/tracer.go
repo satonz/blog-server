@@ -1,6 +1,6 @@
 package middleware
 
-import "C"
+//import "C"
 import (
 	"blog-server/global"
 	"context"

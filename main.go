@@ -19,7 +19,6 @@ import (
 	"syscall"
 	"time"
 
-
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"gopkg.in/natefinch/lumberjack.v2"
@@ -59,7 +58,10 @@ func init() {
 	}
 }
 
-
+// @title  博客系统
+// @version 1.0
+// @description  一个简单的博客系统
+// @termsOfService http://github.com/saton/blog-server
 func main() {
 	gin.SetMode(global.ServerSetting.RunMode)
 	router := routers.NewRouter()
