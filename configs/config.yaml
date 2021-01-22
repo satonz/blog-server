@@ -27,7 +27,7 @@ Email:
   To:
     - xxx
 JWT:
-  Secret: eddycjy
+  Secret: saton
   Issuer: blog-service
   Expire: 7200
 Database:
